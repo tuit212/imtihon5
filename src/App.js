@@ -1,9 +1,25 @@
+import './App.css'
+import PreLoading from "./common/PreLoading";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 function App() {
+
+
   return (
-    <div className="App">
-      
-    </div>
+
+    <>
+      {/* loading */}
+      <PreLoading/>
+
+
+      {/* app jsx */}
+      <div className="App">
+        <h1>salom</h1>
+        <Header/>
+        <Footer/>
+      </div>
+    </>
   );
 }
 
